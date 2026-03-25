@@ -417,14 +417,14 @@ ai:
 
 
   provider: "custom"
-  api_key: "sk-cp-0y04_53RR61efTh5rB5lAIi6rDcpub8Uow-mO6_AZJPdvVfw8AgyPSwTpSHlyJUyqqGXYVhyAcxs81WFaDkEBd2aSsEqQRVswE17lOcy_CJKw8Jge4DJsZc"
+  # api_key: "sk-cp-0y04_53RR61efTh5rB5lAIi6rDcpub8Uow-mO6_AZJPdvVfw8AgyPSwTpSHlyJUyqqGXYVhyAcxs81WFaDkEBd2aSsEqQRVswE17lOcy_CJKw8Jge4DJsZc"
   model: "minimax/MiniMax-M2.7"
   api_base: "https://api.minimax.io/v1"
 
   
   # model: "deepseek/deepseek-chat"
 
-  # api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
   # api_base: ""                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
